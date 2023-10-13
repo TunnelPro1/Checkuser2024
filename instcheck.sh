@@ -31,9 +31,9 @@ fun_install() {
 apt install figlet python3-pip -y > /dev/null 2>&1
 pip3 install flask > /dev/null 2>&1
 mkdir /usr/lib/checkgestor > /dev/null 2>&1
-wget -qO- https://raw.githubusercontent.com/Penguinehis/Checkuser2024/main/chall.sh -O /bin/chall > /dev/null 2>&1
-wget -qO- https://raw.githubusercontent.com/Penguinehis/Checkuser2024/main/checkgestor.sh -O /bin/checkgestor > /dev/null 2>&1
-wget -qO- https://raw.githubusercontent.com/Penguinehis/Checkuser2024/main/checkgestor.py -O /usr/lib/checkgestor/checkgestor.py > /dev/null 2>&1
+wget -qO- https://raw.githubusercontent.com/TunnelPro1/Checkuser2024/main/chall.sh -O /bin/chall > /dev/null 2>&1
+wget -qO- https://raw.githubusercontent.com/TunnelPro1/Checkuser2024/main/checkgestor.sh -O /bin/checkgestor > /dev/null 2>&1
+wget -qO- https://raw.githubusercontent.com/TunnelPro1/Checkuser2024/main/checkgestor.py -O /usr/lib/checkgestor/checkgestor.py > /dev/null 2>&1
 chmod 777 /bin/chall > /dev/null 2>&1
 chmod 777 /bin/checkgestor > /dev/null 2>&1
 chmod 777 /usr/lib/checkgestor/checkgestor.py > /dev/null 2>&1
